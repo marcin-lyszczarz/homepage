@@ -1,7 +1,9 @@
 body{
     background: rgb(83, 105, 112);
 }
-
+a {
+    color: red;
+}
 section{
     background: lightgrey;
 }
