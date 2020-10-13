@@ -1,0 +1,22 @@
+body{
+    background: rgb(83, 105, 112);
+}
+
+p{
+    color:rgb(31, 139, 172) ;
+}
+section{
+    background: lightgrey;
+}
+.special-heading{
+    color: rgb(48, 116, 48);
+}
+.header{
+    background: rgb(39, 245, 159);
+}
+.main-heading{
+    color: rgb(81, 177, 113);
+}
+.secondary-heading{
+    color: salmon;
+}
