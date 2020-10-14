@@ -12,15 +12,15 @@
 
 <body>
     <header class="header">
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka HTML'a</a>
-            <a href="nauka-css.html">Nauka CSS'a</a>
+        <nav class="navigation">
+            <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="nauka-html.html">Nauka HTML'a</a>
+            <a class="navigation__link" href="nauka-css.html">Nauka CSS'a</a>
         </nav>
     </header>
     <main>
         <header id="top">
-            <h1 class="main-heading">Marcin Łyszczarz - Strona domowa robiona w ramach szkolenie WTF </h1>
+            <h1 class="main-heading main-heading--js">Marcin Łyszczarz - Strona domowa robiona w ramach szkolenie WTF </h1>
         </header>
 
         <section>
@@ -34,17 +34,24 @@
 
         <section id="notatki">
             <h2 class="secondary-heading">Notatki z WTF: Co ten frontend</h2>
-            <article>
-                <h3 class="special-heading"> Jak stworzyć HTML-a?</h3>
-                <p>Tworzenie zgodnie ze standardem HTML-a to sztuka, któą do perfekcji opanowało niewielu. Jeśli chcesz
+
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Jak stworzyć HTML-a?</h3>
+                <p class="week-summary__description">Tworzenie zgodnie ze standardem HTML-a to sztuka, któą do perfekcji
+                    opanowało niewielu. Jeśli chcesz
                     staćsięczęścią tej grupy, musisz wykazać się otwartą głową i duża ilością wolnego czasu..</p>
             </article>
-            <article>
-                <h3 class="special-heading"> Pisanie i podłączanie CSS z linka zewnętrznego</h3>
-                <p>Aby nadać styl konieczne jest wybranie poprzez selektor elementu, który ma być stylowany
-                    Linki zewnętrzne podpinamy poprzez znacznik
-                    <link rel="stylesheet" href="" class="">
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Pisanie i podłączanie CSS z linka zewnętrznego</h3>
+                <p class="week-summary__description">Aby nadać styl konieczne jest wybranie poprzez selektor elementu,
+                    który ma być stylowany
+                    Linki zewnętrzne stylów podpinamy poprzez znacznik link rel="stylesheet" href="" class="" <br />
                     Nagłówki, artykuły, paragrafy ostylowane.
+                </p>
+            </article>
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Podstawy JS, BEM, stylowanie</h3>
+                <p class="week-summary__description"> Poszło całkiem nieźle.
                 </p>
             </article>
 

@@ -1,21 +1,51 @@
-body{
-    background: rgb(83, 105, 112);
+body {
+  background: rgb(108, 109, 109);
 }
 a {
-    color: red;
+  color: red;
 }
-section{
-    background: lightgrey;
+section {
+  background: lightgrey;
 }
-.special-heading{
-    color: rgb(48, 116, 48);
+.special-heading {
+  color: rgb(48, 116, 48);
 }
-.header{
-    background: rgb(39, 245, 159);
+/* .header {
+  background: rgb(39, 245, 159);
+} */
+.main-heading {
+  color: rgb(81, 177, 113);
 }
-.main-heading{
-    color: rgb(81, 177, 113);
+.secondary-heading {
+  color: salmon;
 }
-.secondary-heading{
-    color: salmon;
+
+.navigation {
+  background: #27f59f;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: black;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation__link--homepage {
+  background: #1a9964;
+}
+
+.week-summary {
+  padding: 16px;
+  border: 1px black solid;
+  margin-bottom: 15px;
+}
+
+.week-summary__title {
+  color: rgb(48, 116, 48);
+}
+
+.week-summary__description {
+  color: red;
 }
