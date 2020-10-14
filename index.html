@@ -19,22 +19,22 @@
             <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
         </nav>
     </header>
-    <main>
-        <header id="top">
+    <main class="main">
+        <header class='main__header' id="top">
             <h1 class="main-heading main-heading--js">Marcin Łyszczarz - Strona domowa robiona w ramach szkolenie WTF </h1>
         </header>
 
-        <section>
-            <h2 class="secondary-heading">Kim jestem ?</h2>
-            <img src="portret.jpg" alt="Portet brodatego">
-            <p>Na codzień akustyk w Promost. Opracowuję Raporty ooś. Początkujący prgramista frontendowy. Biorę udział w
-                szkolenio <a href="https://cotenfrontend.pl/">WTF</a> <br />
-                Ponadto interesuję się motoryzacją oraz sportem a zwłaszcza piłką nożną. Od czasu do czasu sam kopię. <a
+        <section class="about">
+            <h2 class="about__heading">Kim jestem ?</h2>
+            <img class='about__picture' src="portret.jpg" alt="Portet brodatego">
+            <p class="about__description">Na codzień akustyk w Promost. Opracowuję Raporty ooś. Początkujący prgramista frontendowy. Biorę udział w
+                szkolenio <a class='about_link' href="https://cotenfrontend.pl/">WTF</a> <br />
+                Ponadto interesuję się motoryzacją oraz sportem a zwłaszcza piłką nożną. Od czasu do czasu sam kopię. <a class='about_link'
                     href="#notatki">Przejdź do notatek</a></p>
         </section>
 
-        <section id="notatki">
-            <h2 class="secondary-heading">Notatki z WTF: Co ten frontend</h2>
+        <section class='notes'id="notatki">
+            <h2 class="notes__heading">Notatki z WTF: Co ten frontend</h2>
 
             <article class="week-summary">
                 <h3 class="week-summary__title"> Jak stworzyć HTML-a?</h3>
@@ -55,12 +55,17 @@
                 <p class="week-summary__description"> Poszło całkiem nieźle.
                 </p>
             </article>
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Wstawianie tekstu poprzez javaScript</h3>
+                <p class="week-summary__description week-summary__description--js"> 
+                </p>
+            </article>
 
         </section>
     </main>
 
-    <footer>
-        Strona domowa Marcina Łyszczarza, wszystkie treści są efektem nauki WTF: Co ten frontend. <a href="#top">Przejdź
+    <footer class="footer">
+        Strona domowa Marcina Łyszczarza, wszystkie treści są efektem nauki WTF: Co ten frontend. <a class="footer__link" href="#top">Przejdź
             do góry strony</a>
     </footer>
 

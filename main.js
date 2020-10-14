@@ -1,6 +1,4 @@
-console.log('Siemka');
+const newParagraph = document.querySelector('.week-summary__description--js');
+// console.log(newParagraph);
 
-const heading = document.querySelector('.main-heading--js')
-console.log(heading);
-
-heading.innerHTML = 'WITAJ CZŁOWIEKU';
+newParagraph.innerHTML='Udało się wstawić tekst';
