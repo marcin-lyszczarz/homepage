@@ -12,24 +12,25 @@
 
 <body>
     <header class="header"></header>
-    <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka HTML'a</a>
-        <a href="nauka-css.html">Nauka CSS'a</a>
+    <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML'a</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka CSS'a</a>
+        <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
     </nav>
     </header>
 
     <main>
         <section id="notatki">
             <h2 class="secondary-heading">Nauka HTML'a</h2>
-            <article>
-                <h3 class="special-heading"> Czym jest HTML</h3>
-                <p>HTML (ang. HyperText Markup Language) – hipertekstowy język znaczników, wykorzystywany do tworzenia
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Czym jest HTML</h3>
+                <p class="week-summary__description">HTML (ang. HyperText Markup Language) – hipertekstowy język znaczników, wykorzystywany do tworzenia
                     dokumentów hipertekstowych. </p>
             </article>
-            <article>
-                <h3 class="special-heading"> Opis wstępny</h3>
-                <p>HTML pozwala opisać strukturę informacji zawartych wewnątrz strony internetowej, nadając odpowiednie
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Opis wstępny</h3>
+                <p class="week-summary__description">HTML pozwala opisać strukturę informacji zawartych wewnątrz strony internetowej, nadając odpowiednie
                     znaczenie semantyczne poszczególnym fragmentom tekstu – formując hiperłącza, akapity, nagłówki,
                     listy – oraz osadza w tekście dokumentu obiekty plikowe np. multimedia bądź elementy baz danych np.
                     interaktywne formularze danych.
@@ -38,9 +39,9 @@
                     kaskadowych arkuszy stylów.
                 </p>
             </article>
-            <article>
-                <h3 class="special-heading"> Ulubione znaczniki</h3>
-                <p>h1</p>
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Ulubione znaczniki</h3>
+                <p class="week-summary__description">h1</p>
             </article>
         </section>
     </main>

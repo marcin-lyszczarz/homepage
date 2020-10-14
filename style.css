@@ -40,6 +40,7 @@ section {
   padding: 16px;
   border: 1px black solid;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .week-summary__title {
@@ -48,4 +49,5 @@ section {
 
 .week-summary__description {
   color: red;
+
 }

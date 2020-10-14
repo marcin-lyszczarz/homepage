@@ -10,23 +10,24 @@
 
 <body>
     <header class="header"></header>
-    <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka HTML'a</a>
-        <a href="nauka-css.html">Nauka CSS'a</a>
+    <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML'a</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka CSS'a</a>
+        <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
     </nav>
     </header>
     <main>
         <section id="notatki">
             <h2 class="secondary-heading">Nauka CSS'a</h2>
-            <article>
-                <h3 class="special-heading"> Czym jest CSS</h3>
-                <p>Kaskadowe arkusze stylów (ang. Cascading Style Sheets, w skrócie CSS) – język służący do opisu formy
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Czym jest CSS</h3>
+                <p class="week-summary__description">Kaskadowe arkusze stylów (ang. Cascading Style Sheets, w skrócie CSS) – język służący do opisu formy
                     prezentacji (wyświetlania) stron WWW. </p>
             </article>
-            <article>
-                <h3 class="special-heading"> Opis wstępny</h3>
-                <p>CSS został stworzony w celu odseparowania struktury dokumentu od formy jego prezentacji. Separacja ta
+            <article class="week-summary">
+                <h3 class="week-summary__title"> Opis wstępny</h3>
+                <p class="week-summary__description">CSS został stworzony w celu odseparowania struktury dokumentu od formy jego prezentacji. Separacja ta
                     zwiększa zakres dostępności witryny, zmniejsza zawiłość dokumentu, ułatwia wprowadzanie zmian w
                     strukturze dokumentu. CSS ułatwia także zmiany w renderowaniu strony w zależności od obsługiwanego
                     medium (ekran, palmtop, dokument w druku, czytnik ekranowy). Stosowanie zewnętrznych arkuszy CSS
