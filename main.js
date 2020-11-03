@@ -71,3 +71,32 @@ const welcomeFunction = (querrySelector, newContent, yourName) =>{
 }
 
 welcomeFunction('.about__heading', 'NIE BÓJ SIĘ !', 'Marcin');
+
+const button = document.querySelector('.action--js');
+
+function changeText(){
+  const text = document.querySelector('.week-summary__changeText');
+  text.innerHTML = "PSTRYK";
+  text.classList.toggle('klasa-z-js');
+}
+
+button.addEventListener('click', changeText);
+
+const getSelectBand = function(){
+  const band = document.getElementById('band').value;
+
+  if(band == 'band_2'){
+    alert('Wybrałeś najlepszy zespół');
+  }
+
+}
+getSelectBand();
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', ()=>{
+  const navBtn = document.querySelector('.navigation--js');
+  navBtn.classList.toggle('navigation--open');
+});
+
+

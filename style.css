@@ -2,34 +2,60 @@ html {
   box-sizing: border-box;
 }
 
-*,*:before, *:after{
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
-  background-color: #21D4FD;
-  background-image: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  background-image: -moz-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  background-image: -o-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  
+  background-color: #21d4fd;
+  background-image: -webkit-linear-gradient(
+    19deg,
+    #21d4fd 0%,
+    #b721ff 100%
+  );
+  background-image: -moz-linear-gradient(
+    19deg,
+    #21d4fd 0%,
+    #b721ff 100%
+  );
+  background-image: -o-linear-gradient(
+    19deg,
+    #21d4fd 0%,
+    #b721ff 100%
+  );
+  background-image: linear-gradient(
+    19deg,
+    #21d4fd 0%,
+    #b721ff 100%
+  );
 }
 
 .main {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 60px auto 0;
 }
 .main__header {
   color: #27f59f;
 }
 
+.header {
+  background: #ffffff;
+  min-height: 61px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .about {
   padding: 10px;
   text-align: center;
-} 
+}
 
-.about__picture{
-  height: auto; 
-  width: auto;
+.about__picture {
+  display: block;
+  max-width: 100%;
+  margin: auto;
 }
 
 .about__heading {
@@ -45,23 +71,30 @@ section {
 }
 
 .navigation {
-  background: #27f59f;
   padding: 16px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-around;
-  height: 100px;
-  align-items: center;
+  display: none;
+}
+
+.navigation--open {
+  display: block;
+}
+
+.hamburger {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  border: none;
+  background: none;
 }
 
 .navigation__link {
   color: black;
-  display: inline-block;
-  margin-right: 20px;
+  display: block;
+  margin: 0 0 16px;
+  text-decoration: none;
 }
 
 .navigation__link--homepage {
-  background: #1a9964;
 }
 
 .week-summary {
@@ -102,21 +135,45 @@ section {
   color: hotpink;
 }
 
-.form{
-  
+.form {
 }
 
-.form__item{
+.form__item {
   display: block;
   width: 50%;
 }
 
-.form__item--adress{
+.form__item--adress {
   width: 100%;
 }
 
-.form__item--textarea{
+.form__item--textarea {
   display: block;
   width: 50%;
   height: 500px;
+}
+
+.klasa-z-js {
+  background: #b721ff;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    /* background: #27f59f; */
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+  }
+  .hamburger {
+    display: none;
+  }
+  .main__header {
+    margin-top: 100px;
+  }
+  .navigation__link {
+    font-size: 20px;
+  }
 }

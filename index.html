@@ -12,12 +12,14 @@
 
 <body>
     <header class="header">
-        <nav class="navigation">
+        <button class="hamburger hamburger--js">X</button>
+        <nav class="navigation navigation--js">
             <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
             <a class="navigation__link" href="nauka-html.html">Nauka HTML'a</a>
             <a class="navigation__link" href="nauka-css.html">Nauka CSS'a</a>
             <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
         </nav>
+
     </header>
     <main class="main">
         <header class='main__header' id="top">
@@ -111,7 +113,7 @@
                             <input class="form__item" type="text" id="lastName" name="lastName"
                                 placeholder="Please enter your last name">
                         </label>
-                    </p>
+                    </p> 
                     <p>
                         <label>Your favourite number:
                             <input class="form__item" type="number" id="favouriteNumber" name="favouriteNumber"
@@ -148,7 +150,7 @@
                     </p>
                     <p>
                         <label for="band">Pick one band:</label>
-                        <select id="band">
+                        <select id="band" onchange="getSelectBand()">
                             <option value="band_1">Metallica</option>
                             <option value="band_2">Nirvana</option>
                             <option value="band_3">U2</option>
@@ -201,6 +203,12 @@
 
 
                 </form>
+            </article>
+            <article class="week-summary">
+                <h3 class="week-summary__title"> JavaScript: EVENTY</h3>
+                <p class="week-summary__description week-summary__changeText">Ten tekst się zmieni po kliknięciu w
+                    przycisk</p>
+                <button class="action--js">Zmień tekst</button>
             </article>
 
         </section>
