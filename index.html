@@ -39,61 +39,65 @@
 
         <section class='notes' id="notatki">
             <h2 class="notes__heading">Notatki z WTF: Co ten frontend</h2>
+            <div class="grid">
+                <article class="week-summary">
+                    <h3 class="week-summary__title"> Jak stworzyć HTML-a?</h3>
+                    <p class="week-summary__description">Tworzenie zgodnie ze standardem HTML-a to sztuka, któą do
+                        perfekcji
+                        opanowało niewielu. Jeśli chcesz
+                        staćsięczęścią tej grupy, musisz wykazać się otwartą głową i duża ilością wolnego czasu..</p>
+                    <section>
+                        <h4>
+                            Lista fajnych znaczników
+                        </h4>
+                        <ul class="list">
+                            <li class="list__item">UL</li>
+                            <li class="list__item">OL</li>
+                            <li class="list__item">SECTION
+                                <ol>
+                                    <li>Analiza teści</li>
+                                    <li>Podział na sekcje</li>
+                                    <li>Stwórz pierwszą wersję kodu</li>
+                                </ol>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>div</dt>
+                            <dd>Opis mojego diva</dd>
+                        </dl>
+                        <dl>
+                            <dt>article</dt>
+                            <dd>Opis mojego artykułu</dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <h4>
+                            Kroki do zrobienia dobrego HTML'a
+                        </h4>
+                        <ol>
+                            <li>Analiza teści</li>
+                            <li>Podział na sekcje</li>
+                            <li>Stwórz pierwszą wersję kodu</li>
+                        </ol>
+                    </section>
+                </article>
 
-            <article class="week-summary">
-                <h3 class="week-summary__title"> Jak stworzyć HTML-a?</h3>
-                <p class="week-summary__description">Tworzenie zgodnie ze standardem HTML-a to sztuka, któą do perfekcji
-                    opanowało niewielu. Jeśli chcesz
-                    staćsięczęścią tej grupy, musisz wykazać się otwartą głową i duża ilością wolnego czasu..</p>
-                <section>
-                    <h4>
-                        Lista fajnych znaczników
-                    </h4>
-                    <ul class="list">
-                        <li class="list__item">UL</li>
-                        <li class="list__item">OL</li>
-                        <li class="list__item">SECTION
-                            <ol>
-                                <li>Analiza teści</li>
-                                <li>Podział na sekcje</li>
-                                <li>Stwórz pierwszą wersję kodu</li>
-                            </ol>
-                        </li>
-                    </ul>
-                    <dl>
-                        <dt>div</dt>
-                        <dd>Opis mojego diva</dd>
-                    </dl>
-                    <dl>
-                        <dt>article</dt>
-                        <dd>Opis mojego artykułu</dd>
-                    </dl>
-                </section>
-                <section>
-                    <h4>
-                        Kroki do zrobienia dobrego HTML'a
-                    </h4>
-                    <ol>
-                        <li>Analiza teści</li>
-                        <li>Podział na sekcje</li>
-                        <li>Stwórz pierwszą wersję kodu</li>
-                    </ol>
-                </section>
-            </article>
-
-            <article class="week-summary">
-                <h3 class="week-summary__title"> Pisanie i podłączanie CSS z linka zewnętrznego</h3>
-                <p class="week-summary__description">Aby nadać styl konieczne jest wybranie poprzez selektor elementu,
-                    który ma być stylowany
-                    Linki zewnętrzne stylów podpinamy poprzez znacznik link rel="stylesheet" href="" class="" <br />
-                    Nagłówki, artykuły, paragrafy ostylowane.
-                </p>
-            </article>
+                <article class="week-summary">
+                    <h3 class="week-summary__title"> Pisanie i podłączanie CSS z linka zewnętrznego</h3>
+                    <p class="week-summary__description">Aby nadać styl konieczne jest wybranie poprzez selektor
+                        elementu,
+                        który ma być stylowany
+                        Linki zewnętrzne stylów podpinamy poprzez znacznik link rel="stylesheet" href="" class="" <br />
+                        Nagłówki, artykuły, paragrafy ostylowane.
+                    </p>
+                </article>
+            
             <article class="week-summary">
                 <h3 class="week-summary__title"> Podstawy JS, BEM, stylowanie</h3>
                 <p class="week-summary__description"> Poszło całkiem nieźle.
                 </p>
             </article>
+            </div>
             <article class="week-summary">
                 <h3 class="week-summary__title"> Wstawianie tekstu poprzez javaScript</h3>
                 <p class="week-summary__description week-summary__description--js">
@@ -113,7 +117,7 @@
                             <input class="form__item" type="text" id="lastName" name="lastName"
                                 placeholder="Please enter your last name">
                         </label>
-                    </p> 
+                    </p>
                     <p>
                         <label>Your favourite number:
                             <input class="form__item" type="number" id="favouriteNumber" name="favouriteNumber"
